@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 6rem;
+
   & h2 {
     display: inline-block;
     font-size: 3.2rem;
@@ -10,6 +11,7 @@
     padding-bottom: 0.3rem;
     text-transform: capitalize;
     position: relative;
+
     &::after {
       content: '';
       position: absolute;

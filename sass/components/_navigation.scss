@@ -4,17 +4,20 @@
   align-items: center;
   padding: 0 3.2rem;
   overflow: hidden;
+
   &__list {
     display: flex;
     align-items: center;
     gap: 5rem;
     font-size: 2.5rem;
+
     & li {
       list-style: none;
     }
+
     & a {
       text-decoration: none;
-      color: #666666;
+      color: #666;
 
       &:hover {
         color: #272a31;
@@ -46,19 +49,15 @@
   top: 0;
   font-size: 2.5rem;
   padding-right: 3rem;
-}
-.top-nav li {
-  list-style: none;
+
+  & li {
+    list-style: none;
+  }
 }
 
-.top-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-/*###########################
+/* ###########################
     #sticky navigation#
-  #############################*/
+  ############################# */
 
 .sticky .navigation {
   position: fixed;

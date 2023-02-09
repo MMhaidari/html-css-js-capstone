@@ -1,12 +1,10 @@
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
-
 @import 'base/animations';
 @import 'base/base';
 @import 'base/typography';
 @import 'base/utilities';
-
 @import 'components/button';
 @import 'components/navigation';
 @import 'components/program-section';
@@ -14,9 +12,7 @@
 @import 'components/featured-teacher';
 @import 'components/about__national';
 @import 'components/see-past';
-
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/about__hero';
-
 @import 'pages/home';

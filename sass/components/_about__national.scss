@@ -1,6 +1,5 @@
 .about__national--container {
   padding-top: 9.6rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +11,7 @@
   text-align: center;
   position: relative;
   color: #3a3a3a;
+
   &::after {
     content: '';
     position: absolute;
