@@ -1,0 +1,89 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.2rem;
+  overflow: hidden;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2.5rem;
+    & li {
+      list-style: none;
+    }
+    & a {
+      text-decoration: none;
+      color: #666666;
+
+      &:hover {
+        color: #272a31;
+        transition: all 0.6s ease-in-out;
+        border-bottom: 0.1rem solid #272a31;
+      }
+    }
+  }
+}
+
+.navtigation--btn {
+  padding: 1.2rem;
+  outline: 0.6rem solid #ec5242;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.top-nav {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: 0;
+  background-color: #444;
+  width: 100%;
+  top: 0;
+  font-size: 2.5rem;
+  padding-right: 3rem;
+}
+.top-nav li {
+  list-style: none;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*###########################
+    #sticky navigation#
+  #############################*/
+
+.sticky .navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 144rem;
+  height: 12rem;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  animation: moveInTop 1s ease-in-out;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn__close,
+.btn__open {
+  width: 4rem;
+  height: 4rem;
+  color: #333;
+  display: none;
+  position: relative;
+}

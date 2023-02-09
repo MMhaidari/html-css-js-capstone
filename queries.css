@@ -1,0 +1,279 @@
+@media (max-width: 1440px) {
+  .sticky .navigation {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1110px) {
+  .navigation__list {
+    font-size: 1.8rem;
+  }
+
+  .navtigation--btn {
+    font-size: 1.8rem;
+  }
+
+  .home__primary--header {
+    font-size: 4rem;
+  }
+
+  .home__description {
+    font-size: 1.4rem;
+  }
+
+  .home__date {
+    font-size: 2rem;
+  }
+
+  .home__copy-right {
+    margin-top: 1.8rem;
+  }
+
+  .program__card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .featured__teacher--container {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher--name {
+    font-size: 2.5rem;
+  }
+
+  .footer__description {
+    padding-right: 3.2rem;
+  }
+
+  .about__hero--header {
+    font-size: 3.2rem;
+  }
+
+  .about__hero--description {
+    width: 85%;
+    font-size: 1.8rem;
+  }
+
+  .about__national--description {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .home__section {
+    background-image: url(img/mobile_home-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-position: top center;
+  }
+
+  .home__primary--header {
+    font-size: 2rem;
+    padding: 25vh 10% 0 10%;
+  }
+
+  .home__description {
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 0 0.6rem rgb(255, 255, 255);
+  }
+
+  .home__date {
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+
+  .home__copy-right {
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+
+  .program__section {
+    padding: 12%;
+  }
+
+  .program__card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher--info {
+    gap: 0.8rem;
+  }
+
+  .featured__teacher--header {
+    font-size: 1.8rem;
+    padding: 10%;
+  }
+
+  .featured__teacher--container {
+    padding: 3.2rem 0;
+  }
+
+  .teacher--name {
+    font-size: 1.5rem;
+  }
+
+  .teacher--image img {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .teacher--degree {
+    font-size: 1.4rem;
+  }
+
+  .teacher--about {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .footer__section {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__header,
+  .footer__description {
+    display: none;
+  }
+
+  .footer__img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about__hero--container {
+    background-image: url(img/about_background.png);
+    background-color: #f7f7f7;
+    background-size: contain;
+    background-position: 0 4rem;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .navigation {
+    padding-left: 0;
+    flex-direction: row-reverse;
+  }
+
+  .about__national--description {
+    text-align: justify;
+  }
+
+  .about__hero--header {
+    font-size: 2.2rem;
+    padding-top: 19vh;
+    font-weight: 700;
+  }
+
+  .about__hero--description {
+    margin-top: 3rem;
+  }
+
+  .about__national--logo {
+    box-shadow: none;
+    width: 100vw;
+  }
+
+  .about__national--logo img {
+    width: 100%;
+  }
+
+  .see-past--container {
+    padding: 3.2rem;
+  }
+
+  .see-past__header {
+    font-size: 2rem;
+    padding: 0%;
+  }
+
+  .see-past--images {
+    flex-direction: column;
+  }
+
+  .see-past-1-img,
+  .see-past-2-img {
+    height: 22rem;
+    width: 33rem;
+  }
+
+  .btn__open {
+    display: block;
+    padding-left: 2.8rem;
+  }
+
+  .navigation__list {
+    background: #dbdbdb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .sticky .navigation {
+    height: 7rem;
+    padding-top: 0;
+  }
+
+  .open-nav .navigation__list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    position: fixed;
+    transform: translateX(0);
+  }
+
+  .open-nav .btn__close {
+    display: block;
+    padding: 3rem 0 0 2.5rem;
+    z-index: 999;
+  }
+
+  .open-nav .btn__open {
+    display: none;
+  }
+
+  .see__program-header {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .join__global {
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+    background: #df3020;
+    padding: 2.5rem;
+  }
+
+  .see-program .join__global {
+    border: none;
+  }
+}
