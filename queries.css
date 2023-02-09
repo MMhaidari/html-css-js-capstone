@@ -33,6 +33,19 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .program__card--header {
+    font-size: 1.5rem;
+  }
+
+  .program__card--description {
+    font-size: 1.4rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
   .featured__teacher--container {
     grid-template-columns: 1fr;
   }
@@ -84,6 +97,10 @@
     padding: 25vh 10% 0 10%;
   }
 
+  .home__primary--header span {
+    font-size: 1.8rem;
+  }
+
   .home__description {
     font-size: 1.5rem;
     margin-left: 10%;
@@ -102,11 +119,24 @@
   }
 
   .program__section {
-    padding: 12%;
+    padding: 5%;
   }
 
   .program__card-container {
     grid-template-columns: 1fr;
+  }
+
+  .program__card {
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+    gap: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .flex {
+    flex-direction: row;
+    gap: 1em;
+    justify-content: flex-start;
   }
 
   .teacher--info {
@@ -140,19 +170,26 @@
     font-weight: 500;
   }
 
-  .footer__section {
-    grid-template-columns: 1fr;
+  .logos-partner {
+    height: 2.8rem;
   }
 
-  .footer__header,
+  .footer__section {
+    grid-template-columns: auto 1fr;
+  }
+
+  .footer__header {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
   .footer__description {
     display: none;
   }
 
-  .footer__img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  .footer__img img {
+    width: 10rem;
+    height: 10rem;
   }
 
   .about__hero--container {

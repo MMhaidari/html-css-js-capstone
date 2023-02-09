@@ -107,7 +107,7 @@ body {
   background-color: #444;
   width: 100%;
   top: 0;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   padding-right: 3rem;
 }
 
@@ -139,7 +139,7 @@ body {
   top: 0;
   bottom: 0;
   width: 144rem;
-  height: 12rem;
+  height: 11rem;
   padding-top: 3rem;
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
@@ -206,6 +206,13 @@ body {
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   padding: 1.8rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .program__card:hover {
@@ -519,12 +526,17 @@ body {
 }
 
 .home__primary--header {
-  font-size: 6rem;
+  font-size: 4.2rem;
   color: #e32816;
   text-transform: uppercase;
   padding: 30vh 0 0 11rem;
   mix-blend-mode: multiply;
   animation: moveInLeft 1s ease-in-out;
+}
+
+.home__primary--header span {
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .home__description {
