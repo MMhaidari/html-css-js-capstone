@@ -114,6 +114,8 @@ If you like this project, please provide suggestions to help improve this projec
 
 I would like to thank [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for guidance and knowledge on flexbox
 
+I would like to thank [ Cindy Shin in Behance.](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for design of the template which made it easy to code.
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
