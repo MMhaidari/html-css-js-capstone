@@ -55,7 +55,7 @@
 
 ## 💻 You Find out the profolio website online by clicking to below link
 
-<a>pending</a>
+<a>https://mmhaidari.github.io/html-css-js-capstone/</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
