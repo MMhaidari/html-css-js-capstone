@@ -1,0 +1,27 @@
+.footer__section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.footer__header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.footer__description {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: justify;
+  max-width: 90rem;
+}
+
+.theme-color {
+  background: #272a31;
+}
+
+.theme-text--color {
+  color: #c7c7c7;
+  padding-left: 3.2rem;
+}

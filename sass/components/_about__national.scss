@@ -1,0 +1,40 @@
+.about__national--container {
+  padding-top: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__national--header {
+  font-size: 3.2rem;
+  text-align: center;
+  position: relative;
+  color: #3a3a3a;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 40px;
+    height: 1px;
+    background-color: $color--primary;
+    transform: translateX(-50%);
+    bottom: -15px;
+  }
+}
+
+.about__national--description {
+  width: 80rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  color: $color--darkgray;
+  padding-top: 3.2rem;
+  margin-bottom: 5.2rem;
+}
+
+.about__national--logo {
+  box-shadow: 0 0 0.2rem rgba($color: #000, $alpha: 1);
+  margin-bottom: 4.2rem;
+}

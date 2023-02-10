@@ -1,0 +1,44 @@
+.featured-in {
+  padding: 4rem;
+  background: rgb(39, 42, 49);
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+    & h4 {
+      display: inline-block;
+      font-size: 3.2rem;
+      color: #cfcfcf;
+      text-align: center;
+      padding-bottom: 0.3rem;
+      text-transform: capitalize;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        width: 40px;
+        height: 1px;
+        background-color: $color--primary;
+        transform: translateX(-50%);
+        bottom: -15px;
+      }
+    }
+  }
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  &-partner {
+    height: 3.2rem;
+    filter: grayscale(1);
+  }
+}

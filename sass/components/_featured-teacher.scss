@@ -1,0 +1,64 @@
+.featured__teacher--header {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+
+  & h2 {
+    display: inline-block;
+    font-size: 3.2rem;
+    color: #272a31;
+    text-align: center;
+    padding-bottom: 0.3rem;
+    text-transform: capitalize;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      width: 40px;
+      height: 1px;
+      background-color: $color--primary;
+      transform: translateX(-50%);
+      bottom: -15px;
+    }
+  }
+}
+
+.featured__teacher--container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin: 0 4.2rem;
+  padding: 9.6rem;
+  padding-top: 0;
+}
+
+.featured__teacher-card {
+  display: flex;
+  gap: 2rem;
+}
+
+.teacher--info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.teacher--name {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.teacher--degree {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #e32816;
+}
+
+.teacher--about {
+  font-size: 1.8rem;
+  font-weight: 500;
+}

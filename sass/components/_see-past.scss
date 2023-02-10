@@ -1,0 +1,98 @@
+.see-past {
+  box-shadow: 0 0 0.2rem rgba($color: #333, $alpha: 1);
+  border-bottom: 0.1rem solid #c5c5c5;
+}
+
+.see-past--container {
+  padding: 9.6rem;
+}
+
+.see-past__header {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: $color--dark;
+  text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 40px;
+    height: 1px;
+    background-color: $color--primary;
+    transform: translateX(-50%);
+    bottom: -15px;
+  }
+}
+
+.see-past--description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.see-past--images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+
+.see-past-1-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(240, 83, 83, 0.8),
+      rgba(110, 21, 21, 0.8)
+    ),
+    url(../../img/see-past.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 37rem;
+}
+
+.see-past-2-img {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(240, 83, 83, 0.8),
+      rgba(110, 21, 21, 0.8)
+    ),
+    url(../../img/see-past-1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 37rem;
+}
+
+.see-past-1-img:hover,
+.see-past-2-img:hover {
+  cursor: pointer;
+}
+
+.see-past-1-img p,
+.see-past-2-img p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.see-past-1-img span,
+.see-past-2-img span {
+  font-size: 3rem;
+  font-weight: 700;
+}
